@@ -14,7 +14,7 @@ def create_video_opencv(message):
     x, y = width, height // 2
 
     # Вычисляем скорость текста
-    speed = len(message)*25 // 90
+    speed = len(message)*30 // 90
 
     # Устанавливаем параметры шрифта
     font = cv2.FONT_HERSHEY_SIMPLEX
